@@ -38,6 +38,7 @@
 
   - name: install java7
     command: apt-get install oracle-java7-installer
+    ignore_errors: True
 
   - name: mongodb | get 10gen apt key
     command: apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
