@@ -34,7 +34,7 @@
     gem: name=bundler state=latest user_install=no
 
   - name: install java apt repo
-    apt_repository: repo=ppa:webupd8team/java state=present
+    apt_repository: repo=ppa:webupd8team/java
 
   - name: install java7
     command: apt-get install oracle-java7-installer
